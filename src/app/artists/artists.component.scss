@@ -1,0 +1,62 @@
+.artists {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(165, 160, 160, 0.5), 
+    rgba(21, 17, 17, 0.5)), 
+  url(../../assets/broken-vinyl-disc.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+    .logo {
+      height: 35px;;
+    }
+  }
+
+  .search {
+    position: absolute;
+    top: 5%;
+    left: 29%;
+    height: 74px;
+    width: 41vw;
+    margin-bottom: 60px;
+
+    .btn-search {
+      border-style: none;
+      width: 95%;
+      height: 40px;
+      border-radius: 100px;
+      margin: 17px 10px 10px 15px;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .btn-search:focus {
+      outline: none !important;
+    }
+  }
+
+  .artists-body {
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    height: 520px;
+    width: 85%;
+
+    .artist {
+      background-image: url(../../assets/selena-gomez.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 220px;
+      width: 205px;
+      margin: 30px;
+      
+    }
+  }
+}
