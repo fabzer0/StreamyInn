@@ -1,5 +1,5 @@
 .artists {
-  height: 100vh;
+  height: 1820px;
   background-image: linear-gradient(
     to right bottom, 
     rgba(165, 160, 160, 0.5), 
@@ -44,19 +44,31 @@
 
   .artists-body {
     position: absolute;
-    top: 22%;
+    top: 12%;
     left: 7%;
-    height: 520px;
+    height: 1035px;
     width: 85%;
 
     .artist {
-      background-image: url(../../assets/selena-gomez.jpg);
+      position: relative;
       background-position: center;
       background-size: cover;
-      height: 220px;
-      width: 205px;
+      height: 260px;
+      width: 240px;
       margin: 30px;
-      
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .mini-details {
+      position: absolute;
+      top: 260px;
+      height: 50px;
+      width: 240px;
+      background-color: gold;
+      color: darkgrey;
+      text-align: center;
+      padding-top: 10px;
     }
   }
 }

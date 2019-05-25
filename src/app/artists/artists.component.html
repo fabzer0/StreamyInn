@@ -6,8 +6,13 @@
     <input type="text" class="btn-search" placeholder="Search for albums, artists or songs">
   </div>
   <div class="artists-body">
-    <div class="artist">
-
+    <div *ngFor="let artist of artists" routerLink="/artists/{{artist.name}}" [ngStyle]="{'background-image':'url(' + artist.imageUrl + ')'}" class="artist">
+      <span  class="mini-details">
+        {{ artist.name }},
+        {{ artist.country }}
+      </span>
     </div>
+    
+    
   </div>
 </div>
