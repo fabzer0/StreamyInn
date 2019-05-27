@@ -1,0 +1,58 @@
+.artist {
+  height: 1820px;
+  background-color: black;
+  position: relative;
+
+  .logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: cyan;
+
+    .logo {
+      height: 35px;;
+    }
+  }
+
+  .artist__show-image {
+    position: absolute;
+    top: 7%;
+    height: 330px;
+    width: 30%;
+    display: block;
+
+    .image__contained {
+      height: 100%;
+      width: 80%;
+      margin-left: 20%;
+      background-color: black;
+      position: absolute;
+      top: 0%;
+      background-size: cover;
+      background-position: center;
+
+    }
+  }
+
+  .artist__details {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    height: 330px;
+    width: 70%;
+    display: block;
+  }
+
+  .list__albums {
+    position: relative;
+    top: 27%;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 6%;
+    cursor: pointer;
+    display: inline-block;
+  }
+}
