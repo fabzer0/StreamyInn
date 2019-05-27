@@ -1,18 +1,13 @@
 .artists {
   height: 1820px;
-  background-image: linear-gradient(
-    to right bottom, 
-    rgba(165, 160, 160, 0.5), 
-    rgba(21, 17, 17, 0.5)), 
-  url(../../assets/broken-vinyl-disc.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: black;
   position: relative;
 
   .logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
+    background-color: cyan;
 
     .logo {
       height: 35px;;
