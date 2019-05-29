@@ -1,5 +1,5 @@
 <div class="artist">
-  <div class="logo-box">
+  <div class="logo-box" routerLink="/home">
     <img src="../../assets/logo.png" alt="Logo" class="logo">
   </div>
 
@@ -11,7 +11,7 @@
   <div class="artist__details">
 
   </div>
-  <div *ngFor="let album of albums; index as ind" class="list__albums">
+  <div *ngFor="let album of albums; index as ind" routerLink="/albums/{{album.id}}" class="list__albums">
       {{ ind + 1 }}. {{ album.name }}
   </div>
 </div>

@@ -30,8 +30,6 @@ export class ArtistComponent implements OnInit {
         this.imageUrl = imageUrl;
         this.artistsName = name;
         this.albums = albums;
-        console.log(this.albums);
       });
   }
-
 }

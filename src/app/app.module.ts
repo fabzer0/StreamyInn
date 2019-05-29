@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { ArtistComponent } from './artists/artist/artist.component';
+import { PlaylistsComponent } from './playlists/playlists.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     ArtistsComponent,
-    ArtistComponent
+    ArtistComponent,
+    PlaylistsComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,

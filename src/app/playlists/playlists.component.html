@@ -1,0 +1,27 @@
+<div class="playlist">
+  <div class="logo-box" routerLink="/home">
+    <img src="../../assets/logo.png" alt="Logo" class="logo">
+  </div>
+
+  <div class="artist__show-image">
+    <div class="image__contained" [ngStyle]="{'background-image':'url(' + imageUrl + ')'}">
+      
+    </div>
+  </div>
+  <div class="artist__details">
+
+  </div>
+  <div class="song__titles">
+    <div class="hash__tag">#</div>
+    <div class="song__title">TITLE</div>
+    <div class="singers">ARTIST</div>
+    <div class="time">TIME</div>
+  </div>
+
+  <div class="list__songs" *ngFor="let song of songs; index as ind">
+    <div class="song__numbered">{{ ind + 1 }}</div>
+    <div class="song__name" routerLink="/v/{{song.name}}">{{ song.name }}</div>
+    <div class="artists__featured">{{ artists }}</div>
+    <div class="song__duration"></div>
+  </div>
+</div>

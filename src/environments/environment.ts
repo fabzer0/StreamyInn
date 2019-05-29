@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  microSpotifyBackendUrl: 'http://localhost:8200/api/v1',
+  microSpotifyBackendUrl: 'https://microspotify.serveo.net/api/v1',
 };
 
 /*
