@@ -17,7 +17,7 @@ import { VideoComponent } from './video/video.component';
     ArtistsComponent,
     ArtistComponent,
     PlaylistsComponent,
-    VideoComponent
+    VideoComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,10 +17,10 @@ export class VideoComponent implements OnInit {
     this.getSongName();
   }
 
-  ngAfterContentInit() {
-    const VP = document.getElementById('videoPlayer');
-    if(VP.paused) VP.play();
-  }
+  // ngAfterContentInit() {
+  //   const VP = document.getElementById('videoPlayer');
+  //   if(VP.paused) VP.play();
+  // }
 
   getSongName() {
     const name = this.route.snapshot.paramMap.get('name');

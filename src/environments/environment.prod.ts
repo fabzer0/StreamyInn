@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  microSpotifyBackendUrl: 'https://c4f8186b.ngrok.io/api/v1',
 };

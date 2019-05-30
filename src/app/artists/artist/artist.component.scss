@@ -1,6 +1,6 @@
 .artist {
   height: 1820px;
-  background-color: black;
+  background-color: rgba(41, 37, 37, 0.897);
   position: relative;
 
   .logo-box {
@@ -25,12 +25,10 @@
       height: 100%;
       width: 80%;
       margin-left: 20%;
-      background-color: black;
       position: absolute;
       top: 0%;
       background-size: cover;
       background-position: center;
-
     }
   }
 
@@ -49,7 +47,7 @@
     height: 60px;
     width: 100%;
     border-bottom: 1px solid grey;
-    background-color: black;
+    background-color: rgba(41, 37, 37, 0.897);
     padding-top: 15px;
     padding-left: 6%;
     cursor: pointer;

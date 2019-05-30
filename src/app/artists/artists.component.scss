@@ -1,6 +1,11 @@
 .artists {
   height: 1820px;
-  background-color: black;
+  background-color: rgba(41, 37, 37, 0.897);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
   position: relative;
 
   .logo-box {
@@ -40,30 +45,69 @@
   .artists-body {
     position: absolute;
     top: 12%;
-    left: 7%;
+    left: 15%;
     height: 1035px;
     width: 85%;
+    margin-left: 1.7%;
+
+    @media screen and (min-width: 610px)
+    {
+      left: 5% !important;
+      width: 90% !important;
+    }
+
+    @media screen and (min-width: 820px)
+    {
+      width: 195px;
+    }
+
+    @media screen and (min-width: 1240) 
+    {
+      width: 90% !important;
+    }
 
     .artist {
       position: relative;
       background-position: center;
       background-size: cover;
-      height: 260px;
-      width: 240px;
+      height: 200px;
+      width: 215px;
       margin: 30px;
       display: inline-block;
       cursor: pointer;
+
+      @media screen and (min-width: 610px)
+      {
+        width: 195px !important;
+        margin: 25px !important;
+        justify-content: center;
+      }
+
+      @media screen and (min-width: 820px)
+      {
+        width: 195px;
+      }
     }
 
     .mini-details {
       position: absolute;
-      top: 260px;
-      height: 50px;
-      width: 240px;
+      top: 200px;
+      height: 40px;
+      width: 215px;
       background-color: gold;
-      color: darkgrey;
+      color: black;
       text-align: center;
-      padding-top: 10px;
+      padding-top: 5px;
+
+      @media screen and (min-width: 610px)
+      {
+        width: 195px;
+      }
+
+      @media screen and (min-width: 820px)
+      {
+        width: 195px;
+      }
     }
   }
 }
